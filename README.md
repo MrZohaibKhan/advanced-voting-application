@@ -1,2 +1,2 @@
 # advanced-voting-application
-![Architecture diagram](images/Monolith.drawio.png)
+![Architecture diagram](images/architecture.drawio.png)
