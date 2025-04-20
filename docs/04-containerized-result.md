@@ -1,9 +1,3 @@
-Great — let’s level this one up too. You’re pointing out a **critical yet commonly overlooked** detail: how you run your Node.js process in Docker **can make or break** signal handling, graceful shutdowns, and container orchestration behavior.
-
-We’ll make this markdown **educational**, practical, and a little opinionated (in a good way) — just like your style so far.
-
----
-
 ### 📄 `04-containerized-result.md`
 
 ```markdown
