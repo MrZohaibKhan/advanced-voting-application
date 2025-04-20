@@ -190,5 +190,5 @@ This isn’t just a Dockerfile — it’s a statement:
 And every choice made *with intention*.
 
 ---
-```
-![alt text](images/images-comparison.png)
+See how the vote image size reduced.
+![Result](/images/images-comparison.png)
