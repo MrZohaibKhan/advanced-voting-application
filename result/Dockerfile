@@ -1,9 +1,15 @@
-FROM node
+FROM node:23.11.0-alpine
 
-WORKDIR /App
+ENV NODE_ENV=production
 
-COPY . .
+WORKDIR /app
+
+COPY *.json .
+
+COPY . . 
 
 RUN npm install
 
-CMD node server.js
+USER node
+
+ENTRYPOINT ["node", "server.js"]
