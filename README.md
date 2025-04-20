@@ -12,6 +12,7 @@ The system is composed of the following components:
 ## Labs
 * [Prerequisites](docs/01-prerequisites.md)
 * [Containerized-Vote](docs/02-containerized-vote.md)
+* [Containerized-Worker](docs/03-containerized-worker.md)
 
 ## advanced-voting-application
 ![Architecture diagram](images/architecture.drawio.png)

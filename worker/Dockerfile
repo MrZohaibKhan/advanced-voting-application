@@ -2,11 +2,13 @@ FROM  mcr.microsoft.com/dotnet/sdk:7.0.409-bookworm-slim@sha256:08009349c7f0ad79
 
 WORKDIR /app
 
-COPY . .
+COPY Worker.csproj .
 
 RUN dotnet restore
 
-RUN dotnet publish -o out
+COPY . .
+
+RUN dotnet publish -c Release -o out 
 
 FROM  mcr.microsoft.com/dotnet/runtime:7.0
 
